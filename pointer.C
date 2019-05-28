@@ -17,7 +17,6 @@ int main()
   printf("The value of ptrtoa is %d\n", ptrtoa);
   printf("It stores the value %d\n", *ptrtoa);
   printf("The address of a is %d\n", &a);
-
   int d = 5;
   int e = 7;
   printf("The value of d is %d and the address of d is %d\n", d, &d);
