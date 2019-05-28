@@ -12,7 +12,6 @@ void main()
     printf("\n");
     arrayAdd(arr,100,10);
 }
-
 void arrayAdd(int* arr, int s, int n)
 {
   for(int num = 0; num < s; num++)
