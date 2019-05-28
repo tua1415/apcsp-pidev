@@ -6,7 +6,6 @@ int main()
   int b = 3;
   int c;
   int d;
-
   a = 2;
   c = a + b;
   printf("c is assigned to the sum of a (%d) and b (%d), %d.\n", a, b, c);
