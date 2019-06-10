@@ -4,11 +4,16 @@
 int main()
 {
 
-  printf("Hello! Welcome to the Math Quiz! Get 3/5 questions to pass!\n\n\n\n");
+  printf("Hello! Welcome to the Math Quiz! Get 4/5 questions to pass!\n\n\n\n");
   int score;
   int total = 0;
   char answer[50];
-
+FILE*outFile;
+ outFile = fopen("finalprojectoutput", "w");
+  if (outFile == NULL) {
+  printf("error - failed to open file for writing\n");
+  return 1;
+  }
     printf("2x=18");
     printf("Does X equal 9? Answer with (y/n)\n");
     scanf("%s",answer);
