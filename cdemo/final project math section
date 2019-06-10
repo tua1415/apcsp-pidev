@@ -17,6 +17,7 @@ FILE*outFile;
     printf("2x=18");
     printf("Does X equal 9? Answer with (y/n)\n");
     scanf("%s",answer);
+    fprintf(outFile, "%s", answer);
     if (strcmp(answer,"y") == 0)
 {
   total = total + 1;
@@ -34,6 +35,7 @@ else
 printf("2x+1=19");
     printf("Does X equal 9? Answer with (y/n)\n");
     scanf("%s",answer);
+    fprintf(outFile, "%s", answer);
     if (strcmp(answer,"y") == 0)
 {
   total = total + 1;
@@ -51,6 +53,7 @@ else
 printf("3x=18");
     printf("Does X equal 6? Answer with (y/n)\n");
     scanf("%s",answer);
+    fprintf(outFile, "%s", answer);
     if (strcmp(answer,"y") == 0)
 {
   total = total + 1;
@@ -68,6 +71,7 @@ else
 printf("4x=20");
     printf("Does X equal 5? Answer with (y/n)\n");
     scanf("%s",answer);
+    fprintf(outFile, "%s", answer);
     if (strcmp(answer,"y") == 0)
 {
   total = total + 1;
@@ -92,6 +96,7 @@ else
 printf("12x=144");
     printf("Does X equal 12? Answer with (y/n)\n");
     scanf("%s",answer);
+    fprintf(outFile, "%s", answer);
     if (strcmp(answer,"y") == 0)
 {
   total = total + 1;
